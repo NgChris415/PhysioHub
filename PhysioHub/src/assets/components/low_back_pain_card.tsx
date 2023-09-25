@@ -13,6 +13,7 @@ export const LowBackPainCard = () => {
             "Bridge (Sets: 2 Reps: 10 Hold: 5s Daily: 2)",
             "Prone Press Up (Sets: 2 Reps: 10 Hold: 5s Daily: 2)",
         ],
+        youtubePlaylist: "https://www.youtube.com",
     };
     return <ExerciseCard {...lowBackPainInfo} />;
 };

@@ -12,6 +12,7 @@ export const ShoulderPainCard = () => {
             "Scapular Retraction w/ Band (Sets: 2 Reps: 10 Hold: 5s Daily: 1)",
             "Theraband Row (Sets: 2 Reps: 10 Hold: 5s Daily: 1)",
         ],
+        youtubePlaylist: "https://www.youtube.com",
     };
     return <ExerciseCard {...shoulderPainInfo} />;
 };

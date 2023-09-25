@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { FaYoutube } from "react-icons/fa";
+
 export const ExerciseCard = (props: {
     bodyRegion: string;
     bodyRegionInfo: string;
     exerciseList: string[];
+    youtubePlaylist: string;
 }) => {
     const [displayInfo, setDisplayInfo] = useState(false);
     const displayInfoButton = () => {
@@ -28,6 +31,12 @@ export const ExerciseCard = (props: {
                                 return <li key={data}>{data}</li>;
                             })}
                         </ul>
+                        <a
+                            href={props.youtubePlaylist}
+                            className="youtube-button"
+                        >
+                            <FaYoutube color="white" size="30" />
+                        </a>
                     </div>
                 )}
             </div>

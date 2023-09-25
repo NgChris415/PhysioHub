@@ -121,3 +121,10 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.youtube-button {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    border-radius: 8px;
+}

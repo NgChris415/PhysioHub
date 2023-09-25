@@ -13,6 +13,7 @@ export const KneePainCard = () => {
             "Wall Squat (Sets: 3 Hold:20-30s Daily: 1)",
             "Bridge (Sets: 3 Reps: 10 Hold: 5s Daily: 1)",
         ],
+        youtubePlaylist: "https://www.youtube.com",
     };
     return <ExerciseCard {...kneePainInfo} />;
 };

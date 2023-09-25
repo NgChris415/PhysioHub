@@ -12,7 +12,7 @@ Welcome to PhysioHub, your destination for introductory Home Exercise Programs p
 
 ### Frontend
 + ```React``` - a free and open-source front-end JavaScript library for building user intefaces based on components
-+ ```TavaScript``` - main language used in Project
++ ```TypeScript``` - main language used in Project
 + ```CSS``` - used for frontend design
 
 # Features

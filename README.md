@@ -1,6 +1,6 @@
 # Production README
 
-Welcome to PhysioHub, your destination for introductory Home Exercise Programs personally designed by a licensed Physical Therapist (that's me!), with a passion for leveraging technical coding skills to make valuable resources easily accessible to those facing challenges in receiving care. [here]([https://heelios.herokuapp.com/](https://65110a46cb64f64b59b9fcff--stately-cocada-011da8.netlify.app/))!
+Welcome to PhysioHub, your destination for introductory Home Exercise Programs personally designed by a licensed Physical Therapist (that's me!), with a passion for leveraging technical coding skills to make valuable resources easily accessible to those facing challenges in receiving care. [Here]([https://heelios.herokuapp.com/](https://65110a46cb64f64b59b9fcff--stately-cocada-011da8.netlify.app/))!
 
 # Table of Contents
 1. [Technologies](#technologies)

@@ -6,6 +6,10 @@
     opacity: 0.75;
 }
 
+.background {
+    width: 100%;
+    height: 100%;
+}
 .page-title {
     font-size: 35px;
 }
@@ -39,9 +43,16 @@ a {
     margin-left: 10px;
 }
 
+/* .treatment-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
 .exercise-card {
-    width: 500px;
-    margin: 10px;
+    width: 50%;
+    margin: 10px auto;
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -74,15 +85,28 @@ a {
     display: flex;
 }
 
-.additional-info-container {
-    border: 2px solid transparent;
-    padding: 10px;
-    margin-top: 25px;
-    margin-left: 65px;
+.page-info {
+    width: 80%;
+    margin: 25px auto;
+    border: 2px transparent solid;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
     background-color: rgba(250, 250, 250, 0.9);
     color: #123c69;
+    box-shadow: 5px 5px 10px black;
+    font-size: 18px;
+}
+
+.additional-info-container {
+    width: 80%;
+    margin: 25px auto;
+    border: 2px transparent solid;
+    padding: 0px 30px;
+    padding-bottom: 20px;
     border-radius: 8px;
-    width: 1250px;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: #123c69;
     box-shadow: 5px 5px 10px black;
     font-size: 18px;
 }
@@ -97,29 +121,9 @@ a {
     padding: 0 10px;
 }
 
-.page-info {
-    width: 1250px;
-    margin: 25px auto;
-    border: 2px transparent solid;
-    padding: 0px 30px;
-    padding-bottom: 20px;
-    border-radius: 8px;
-    background-color: rgba(250, 250, 250, 0.9);
-    color: #123c69;
-    box-shadow: 5px 5px 10px black;
-    font-size: 19px;
-}
-
 .body-region {
     font-size: 35px;
     margin: 0px;
-}
-
-.treatment-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .youtube-button {
